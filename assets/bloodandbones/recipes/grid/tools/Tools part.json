@@ -3,21 +3,11 @@
 		ingredientPattern: "BF",
 		ingredients: {
 			"F": { type: "item", code: "game:flint"},
-			"B": { type: "item", code: "game:bone" }
+			"B": { type: "item", code: "game:bone", quantity: 2 }
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "bloodandbones:boneshovelhead", quantity: 2  }
-	},
-	{
-		ingredientPattern: "FBB",
-		ingredients: {
-			"F": { type: "item", code: "game:flint"},
-			"B": { type: "item", code: "game:bone" }
-		},
-		width: 1,
-		height: 3,
-		output: { type: "item", code: "bonesbonesandbones:bonehoehead", quantity: 1  }
+		output: { type: "item", code: "bloodandbones:boneshovelhead", quantity: 1  }
 	},
 	{
 		ingredientPattern: "FB",
@@ -25,8 +15,18 @@
 			"F": { type: "item", code: "game:flint"},
 			"B": { type: "item", code: "game:bone" }
 		},
-		width: 1,
-		height: 2,
-		output: { type: "item", code: "bonesbonesandbones:bonespearhead", quantity: 1  }
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "bloodandbones:bonehoehead", quantity: 1  }
+	},
+	{
+		ingredientPattern: "FBB",
+		ingredients: {
+			"F": { type: "item", code: "game:flint"},
+			"B": { type: "item", code: "game:bone" }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "item", code: "bloodandbones:bonespearhead", quantity: 1  }
 	}
 ]
