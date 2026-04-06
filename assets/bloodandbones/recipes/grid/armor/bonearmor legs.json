@@ -1,0 +1,41 @@
+[
+	{
+		ingredientPattern: "KH_,BRB,B_B",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"H": { type: "item", code: "game:hide-raw-small*", quantity: 4 },
+			"B": { type: "item", code: "game:bone", quantity: 4 },
+			"R": { type: "item", code: "game:rope", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		name: "Bone Leg Armor",
+		output: { type: "item", code: "bloodandbones:armor-legs-hide-bone"  }
+	},
+	{
+		ingredientPattern: "KH_,BRB,B_B",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"H": { type: "item", code: "game:hide-raw-medium*", quantity: 2 },
+			"B": { type: "item", code: "game:bone", quantity: 4 },
+			"R": { type: "item", code: "game:rope", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		name: "Bone Leg Armor",
+		output: { type: "item", code: "bloodandbones:armor-legs-hide-bone"  }
+	},
+	{
+		ingredientPattern: "KH_,BRB,B_B",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"H": { type: "item", code: "game:hide-raw-large*", quantity: 1 },
+			"B": { type: "item", code: "game:bone", quantity: 4 },
+			"R": { type: "item", code: "game:rope", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		name: "Bone Leg Armor",
+		output: { type: "item", code: "bloodandbones:armor-legs-hide-bone"  }
+	}
+]

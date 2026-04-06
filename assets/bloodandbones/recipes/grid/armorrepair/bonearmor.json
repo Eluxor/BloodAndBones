@@ -1,0 +1,32 @@
+[
+		{
+		ingredientPattern: "A,B",
+		recipeGroup: 2,
+		ingredients: {
+			"A": { type: "item", code: "bloodandbones:armor-body-hide-bone" },
+			"B": { type: "item", code: "game:bone", quantity: 5 }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'A',
+		averageDurability: false,
+		name: "Bone Chest Armor repair",
+		output: { type: "item", code: "bloodandbones:armor-body-hide-bone"  }
+	},
+	{
+		ingredientPattern: "A,B",
+		recipeGroup: 2,
+		ingredients: {
+			"A": { type: "item", code: "bloodandbones:armor-legs-hide-bone" },
+			"B": { type: "item", code: "game:bone", quantity: 5 }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'A',
+		averageDurability: false,
+		name: "Bone Chest Armor repair",
+		output: { type: "item", code: "bloodandbones:armor-legs-hide-bone"  }
+	},
+]

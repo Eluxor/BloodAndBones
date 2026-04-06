@@ -1,0 +1,72 @@
+{
+	code: "clothes",
+	class: "ItemWearable",
+	variantgroups: [
+		{ code: "category",  states: ["face"] },
+		{ code: "face", states: [
+			"skull-mask",
+			"skull-sheep"
+		] }
+	],
+	shapeByType: { 
+		"clothes-face-skull-mask": {	base: "entity/humanoid/seraph/clothing/face/skull-mask" },
+		"clothes-face-skull-sheep": {	base: "entity/humanoid/seraph/clothing/face/clean-sheepskull" }
+	},
+	texturesByType: {
+		"*": {
+			"seraph": { base: "game:block/transparent" }
+		}
+	},
+	storageFlags: 128,
+	attributes: {
+		clothescategory: "face",
+		wearableAttachment: true,
+		warmth: 0.25,
+		handbook: {
+			groupBy: ["clothes-{category}-*"]
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"], "BLOODANDBONE":["*"] },
+	renderAlphaTest: 0.25,
+	guiTransformByType: {
+		"clothes-face-skull-mask": {
+			rotation: { x: 1, y: -121, z: -167 },
+			origin: { x: 0.45, y: 1.66, z: 0.5 },
+			scale: 3
+		},
+		"clothes-face-skull-sheep": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 1, y: -90, z: -167 },
+			origin: { x: 0.5, y: 1.72, z: 0.55 },
+			scale: 2.18
+		}
+	},
+	tpHandTransformByType: {
+		"*": {
+			translation: { x: -0.55, y: -2.2, z: -0.94 },
+			rotation: { x: -89, y: 180, z: 102 },
+			origin: { x: 0.5, y: 1.5, z: 0.5 },
+			scale: 0.7
+		}
+		
+	},
+	groundTransform: {
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 1.5, z: 0.5299 },
+		scale: 2.58
+	},
+	fpHandTransformByType: {
+		"clothes-face-skull-mask": {
+			translation: { x: 0.08, y: -1.71, z: -0.5 },
+			rotation: { x: 12, y: 42, z: -29 },
+			origin: { x: 0.5, y: 1, z: 0.5 },
+			scale: 2.5
+		},
+		"clothes-face-skull-sheep": {
+			translation: { x: 0.08, y: -1.71, z: -0.5 },
+			rotation: { x: 12, y: 42, z: -29 },
+			origin: { x: 0.5, y: 1, z: 0.5 },
+			scale: 2.5
+		}
+	}
+}

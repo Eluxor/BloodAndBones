@@ -1,0 +1,26 @@
+[
+	{
+		ingredientPattern: "_K_,RBR",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"B": { type: "item", code: "game:bone", quantity: 5 },
+			"R": { type: "item", code: "game:rope", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		name: "Human Skull Mask",
+		output: { type: "item", code: "bloodandbones:clothes-face-skull-mask"  }
+	},
+	{
+		ingredientPattern: "BKB,RBR",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"B": { type: "item", code: "game:bone", quantity: 2 },
+			"R": { type: "item", code: "game:rope", quantity: 1 }
+		},
+		width: 3,
+		height: 2,
+		name: "Sheep Skull Mask",
+		output: { type: "item", code: "bloodandbones:clothes-face-skull-sheep"  }
+	}
+]

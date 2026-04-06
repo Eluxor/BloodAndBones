@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "BB,BB",
+		ingredients: {
+			"B": { type: "item", code: "game:bone", quantity: 16 }
+		},
+		width: 2,
+		height: 2,
+		name: "Bone Block",
+		output: { type: "block", code: "bloodandbones:boneblock"  }
+	}
+]
