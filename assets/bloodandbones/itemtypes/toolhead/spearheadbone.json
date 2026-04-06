@@ -2,7 +2,7 @@
 	code: "bonespearhead",
 	heldTpUseAnimation: "interactstatic", maxstacksize: 4,
 	shape: {
-		base: "game:item/tool/spear/stone" 
+		base: "bloodandbones:item/tool/spear/bone-indev"
 	},
 	texturesByType: {
 		"bonespearhead": {

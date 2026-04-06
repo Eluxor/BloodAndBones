@@ -8,9 +8,9 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"material": "/Users/Pixel/AppData/Roaming/Vintagestory/assets/survival/textures/block/creature/bone-yellow",
-		"handle": "/Users/Pixel/AppData/Roaming/Vintagestory/assets/survival/textures/item/tool/material/handle",
-		"string": "/Users/Pixel/AppData/Roaming/Vintagestory/assets/survival/textures/item/tool/material/string"
+		"material": "bloodandbones:entity/humanoid/serapharmor/bone/body",
+		"string": "game:item/tool/material/string",
+		"handle": "game:item/tool/material/handle"
 	},
 	"elements": [
 		{

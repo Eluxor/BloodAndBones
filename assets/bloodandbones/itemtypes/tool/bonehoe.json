@@ -31,7 +31,7 @@
 	},
 	damagedby: ["blockbreaking", "attacking"],
 	shape: {
-		"base": "bloodandbones:item/tool/hoe-stone" 
+		"base": "bloodandbones:item/tool/hoe-bone-indev"
 	},
 	heldTpHitAnimation: "breaktool",
 	texture: {

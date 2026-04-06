@@ -28,7 +28,7 @@
 
 	tool: "shovel",
 	damagedby: ["blockbreaking", "attacking"],
-	shape: { base: "bloodandbones:item/tool/shovel-stone" },
+	shape: { base: "bloodandbones:item/tool/shovel-bone-indev" },
 
 	heldTpIdleAnimation: "shovelidle",
 	heldRightReadyAnimation: "shovelready",

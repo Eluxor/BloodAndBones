@@ -32,10 +32,11 @@
 	{ name: "AnimationAuthoritative" }],
 	variantgroups: [
 		{ code: "type", states: ["makeshift"] },
-		{ code: "material", states: ["bone" ] },
+		{ code: "material", states: ["bone","stick" ] },
 	],
 	shapeByType: {
-		"boneknife-makeshift-bone": { base: "item/tool/knife/bone" }
+		"boneknife-makeshift-bone": { base: "bloodandbones:item/tool/knife-bone-indev" },
+		"boneknife-makeshift-stick": { base: "bloodandbones:item/tool/knife-bone-indev" }
 	},
 	heldTpHitAnimation: "knifestab",
 	texturesByType: {

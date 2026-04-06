@@ -1,9 +1,9 @@
 {
 	code: "bonehoehead",
-	heldTpUseAnimation: "interactstatic", maxstacksize: 4,
 	shape: {
 		base: "bloodandbones:item/tool/hoe-bone-indev"
 	},
+	heldTpUseAnimation: "interactstatic", maxstacksize: 4,
 	texturesByType: {
 		"bonehoehead": { 
 			"material": { base: "bloodandbones:entity/humanoid/serapharmor/bone/body" },
@@ -24,13 +24,11 @@
 		scale: 2.5
 	},
 	guiTransform: {
-		
-			rotate: false,
-			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: -63, y: -128, z: -131 },
-			origin: { x: 1, y: 0, z: 0.46 },
-			scale: 3.76
-		
+		rotate: false,
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -63, y: -128, z: -131 },
+		origin: { x: 1, y: 0, z: 0.46 },
+		scale: 3.76
 	},
 	groundTransform: {
 		translation: { x: 0, y: -0.28, z: 0 },
