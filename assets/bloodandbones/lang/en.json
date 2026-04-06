@@ -7,11 +7,14 @@
     "item-boneshovelhead": "Bone Shovel head",
     "item-bonehoehead":"Bone Hoe head",
     "item-bonespearhead":"Bone Spear head",
+    "item-boneknifehead":"Bone Knife head",
 
     "item-bonehoe": "Bone Hoe",
     "item-boneshovel": "Bone shovel",
     "item-bonespear-makeshift-bone":"Bone spear",
     "item-spear-generic-bone": "Bone spear",
+    "item-boneknife-makeshift-bone": "Full Bone knife",
+    "item-boneknife-makeshift-stick": "Bone Blade knife",
 
     "item-clothes-face-skull-mask" : "Human Skull Mask",
     "item-clothes-face-skull-sheep" : "Sheep Skull Mask",

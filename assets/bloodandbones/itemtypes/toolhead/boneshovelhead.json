@@ -3,7 +3,7 @@
 
 	heldTpUseAnimation: "interactstatic", maxstacksize: 4,
 	shape: {
-		"base": "game:item/tool/shovel-stone" 
+		"base": "bloodandbones:item/tool/shovel-bone-indev" 
 	},
 	texturesByType: {
 		"boneshovelhead": { 

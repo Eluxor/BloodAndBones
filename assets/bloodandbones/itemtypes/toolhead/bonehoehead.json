@@ -2,7 +2,7 @@
 	code: "bonehoehead",
 	heldTpUseAnimation: "interactstatic", maxstacksize: 4,
 	shape: {
-		base: "game:item/tool/hoe-stone"
+		base: "bloodandbones:item/tool/hoe-bone-indev"
 	},
 	texturesByType: {
 		"bonehoehead": { 
