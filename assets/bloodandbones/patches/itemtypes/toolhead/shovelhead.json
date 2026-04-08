@@ -1,0 +1,30 @@
+[
+	{
+		"file": "game:itemtypes/toolhead/shovelhead.json",
+		"op": "addeach",
+		"path": "/variantgroups/0/states/16",
+		"value": [
+			"bone"
+		]
+	},
+	{
+		"file": "game:itemtypes/toolhead/shovelhead.json",
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": {
+			"*-bone": { "base": "bloodandbones:item/tool/shovel-bone-indev" }
+		}
+	},
+	{
+		"file": "game:itemtypes/toolhead/shovelhead.json",
+		"op": "move",
+		"path": "/temp",
+		"frompath": "/shapeByType/*"
+	},
+	{
+		"file": "game:itemtypes/toolhead/shovelhead.json",
+		"op": "move",
+		"path": "/shapeByType/*",
+		"frompath": "/temp"
+	}
+]

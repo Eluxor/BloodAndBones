@@ -1,0 +1,30 @@
+[
+	{
+		"file": "game:itemtypes/toolhead/hoehead.json",
+		"op": "addeach",
+		"path": "/variantgroups/0/states/16",
+		"value": [
+			"bone"
+		]
+	},
+	{
+		"file": "game:itemtypes/toolhead/hoehead.json",
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": {
+			"*-bone": { "base": "bloodandbones:item/tool/hoe-bone-indev" }
+		}
+	},
+	{
+		"file": "game:itemtypes/toolhead/hoehead.json",
+		"op": "move",
+		"path": "/temp",
+		"frompath": "/shapeByType/*"
+	},
+	{
+		"file": "game:itemtypes/toolhead/hoehead.json",
+		"op": "move",
+		"path": "/shapeByType/*",
+		"frompath": "/temp"
+	}
+]

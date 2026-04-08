@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"material": "bloodandbones:entity/humanoid/serapharmor/bone/body",
+		"material": "bloodandbones:block/bone",
 		"string": "game:item/tool/material/string",
 		"handle": "game:item/tool/material/handle"
 	},

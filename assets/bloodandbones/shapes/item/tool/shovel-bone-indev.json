@@ -6,9 +6,9 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textures": {
-		"handle": "/Users/Pixel/AppData/Roaming/Vintagestory/assets/survival/textures/item/tool/material/handle",
-		"string": "/Users/Pixel/AppData/Roaming/Vintagestory/assets/survival/textures/item/tool/material/string",
-		"material": "/Users/Pixel/OneDrive - Anheuser-Busch InBev/Desktop/Velasco Stuff/Mo-Bones/assets/bloodandbones/textures/entity/humanoid/serapharmor/bone/bone"
+		"material": "game:block/creature/bone-yellow",
+		"string": "game:item/tool/material/string",
+		"handle": "game:item/tool/material/handle"
 	},
 	"elements": [
 		{

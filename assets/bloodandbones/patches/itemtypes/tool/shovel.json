@@ -1,0 +1,93 @@
+[
+	{
+		"file": "game:itemtypes/tool/shovel",
+		"op": "addeach",
+		"path": "/variantgroups/0/states/16",
+		"value": [
+			"bone"
+		]
+	},
+    {
+		"file": "game:itemtypes/tool/shovel.json",
+		"op": "addmerge",
+		"path": "/attributes/groundStorageTransformByType",
+		"value": {
+			"@shovel-(bone)": {
+				"translation": { "x": 0, "y": 0.5, "z": -0.16 },
+				"rotation": { "x": 13, "y": 88, "z": -87 },
+				"scale": 0.88
+			}
+        }	
+	},
+    {
+        "file": "game:itemtypes/tool/shovel.json",
+        "op": "move",
+        "path": "/temp",
+        "frompath": "/attributes/groundStorageTransformByType/*"
+    },
+    {
+        "file": "game:itemtypes/tool/shovel.json",
+        "op": "move",
+        "path": "/attributes/groundStorageTransformByType/*",
+        "frompath": "/temp"
+    },
+    {
+		"file": "game:itemtypes/tool/shovel.json",
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": {
+            "shovel-bone": { "base": "bloodandbones:item/tool/shovel-bone-indev" }
+        }	
+	},
+    {
+		"file": "game:itemtypes/tool/shovel.json",
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+            "*-bone": {
+			    "material": { "base": "bloodandbones:entity/humanoid/serapharmor/bone/body" }
+		    },
+        }	
+	},
+    {
+        "file": "game:itemtypes/tool/shovel.json",
+        "op": "move",
+        "path": "/temp",
+        "frompath": "/texturesByType/*"
+    },
+    {
+        "file": "game:itemtypes/tool/shovel.json",
+        "op": "move",
+        "path": "/texturesByType/*",
+        "frompath": "/temp"
+    },
+    {
+		"file": "game:itemtypes/tool/shovel.json",
+		"op": "addmerge",
+		"path": "/miningspeedbytype",
+		"value": {
+            "shovel-bone": {
+                "soil": 2.5,
+                "sand": 2.5,
+                "gravel": 2.1,
+                "snow": 2.1
+            }
+        }	
+	},
+    {
+		"file": "game:itemtypes/tool/shovel.json",
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": {
+            "shovel-bone": 100
+        }	
+	},
+    {
+		"file": "game:itemtypes/tool/shovel.json",
+		"op": "addmerge",
+		"path": "/attackpowerbytype",
+		"value": {
+            "shovel-bone": 1.25
+        }	
+	}
+]

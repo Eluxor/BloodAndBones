@@ -3,9 +3,11 @@
     "item-armor-body-hide-bone": "Bone Chest Armor",
     "item-armor-body-hide-bone-human": "Bone Chest Armor (Skull)",
     "item-armor-legs-hide-bone": "Bone Leg Armor",
-    
+
     "item-clothes-face-skull-mask" : "Human Skull Mask",
     "item-clothes-face-skull-sheep" : "Sheep Skull Mask",
 
-    "block-boneblock" : "Bone Block"
+    "block-boneblock" : "Bone Block",
+    "game:item-hoe-bone": "Bone hoe",
+    "game:item-hoehead-bone": "Bone hoe head"
 }
