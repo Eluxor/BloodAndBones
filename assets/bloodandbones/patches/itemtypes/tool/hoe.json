@@ -2,7 +2,7 @@
 	{
 		"file": "game:itemtypes/tool/hoe.json",
 		"op": "addeach",
-		"path": "/variantgroups/0/states/9",
+		"path": "/variantgroups/0/states/-",
 		"value": [
 			"bone"
 		]
@@ -17,7 +17,7 @@
 				"rotation": { "x": 23, "y": 87, "z": -90 },
 				"scale": 0.88
 			}
-        }	
+        }
 	},
     {
         "file": "game:itemtypes/tool/hoe.json",
@@ -69,7 +69,7 @@
 		"path": "/texturesByType",
 		"value": {
             "*-bone": {
-			    "material": { "base": "bloodandbones:entity/humanoid/serapharmor/bone/body" }
+			    "material": { "base": "bloodandbones:block/bone" }
 		    },
         }
 	},

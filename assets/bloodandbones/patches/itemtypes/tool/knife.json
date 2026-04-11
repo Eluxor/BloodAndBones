@@ -1,0 +1,133 @@
+[
+	{
+		"file": "game:itemtypes/tool/knife.json",
+		"op": "addeach",
+		"path": "/variantgroups/1/states/-",
+		"value": [
+			"boney"
+		]
+	},
+    {
+		"file": "game:itemtypes/tool/knife.json",
+		"op": "addmerge",
+		"path": "/attributes/groundStorageTransformByType",
+		"value": {
+			"@knife-(boney)": {
+				"translation": { "x": 0, "y": 0.04, "z": -0.23 },
+				"rotation": { "x": 23, "y": 87, "z": -90 },
+				"scale": 0.88
+			}
+        }
+	},
+    {
+        "file": "game:itemtypes/tool/knife.json",
+        "op": "move",
+        "path": "/temp",
+        "frompath": "/attributes/groundStorageTransformByType/*"
+    },
+    {
+        "file": "game:itemtypes/tool/knife.json",
+        "op": "move",
+        "path": "/attributes/groundStorageTransformByType/*",
+        "frompath": "/temp"
+    },
+    {
+		"file": "game:itemtypes/tool/knife.json",
+		"op": "addmerge",
+		"path": "/attributes/toolrackTransformByType",
+		"value": {
+			"@knife-(boney)": {
+				"rotation": { "y": 1, "z": -1 },
+				"translation": { "x": -0.25, "y": 0.6 },
+				"scale": 1.25
+			}
+        }	
+	},
+    {
+        "file": "game:itemtypes/tool/knife.json",
+        "op": "move",
+        "path": "/temp",
+        "frompath": "/attributes/toolrackTransformByType/*"
+    },
+    {
+        "file": "game:itemtypes/tool/knife.json",
+        "op": "move",
+        "path": "/attributes/toolrackTransformByType/*",
+        "frompath": "/temp"
+    },
+   {
+		"file": "game:itemtypes/tool/knife.json",
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": {
+			"*-boney": { "base": "bloodandbones:item/tool/knife-bone-indev" }
+		}
+	},
+    {
+		"file": "game:itemtypes/tool/knife.json",
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": {
+			"@knife-generic-(boney)": { "base": "bloodandbones:item/tool/knife-bone-indev" },
+            "*-boney": { "base": "bloodandbones:item/tool/knife-bone-indev" },
+            "knife-generic-boney": { "base": "bloodandbones:item/tool/knife-bone-indev" }
+		}
+	},
+    {
+		"file": "game:itemtypes/tool/knife.json",
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+            "*-eluxor": {
+			    "material": { "base": "bloodandbones:block/bone" }
+		    },
+            "*-boney": {
+			    "material": { "base": "bloodandbones:block/bone" }
+		    },
+            "generic-boney": {
+			    "material": { "base": "bloodandbones:block/bone" }
+		    },
+            "knife-generic-boney": {
+			    "material": { "base": "bloodandbones:block/bone" }
+		    }
+        }	
+	},
+    {
+        "file": "game:itemtypes/tool/knife.json",
+        "op": "move",
+        "path": "/temp",
+        "frompath": "/texturesByType/*"
+    },
+    {
+        "file": "game:itemtypes/tool/knife.json",
+        "op": "move",
+        "path": "/texturesByType/*",
+        "frompath": "/temp"
+    },
+    {
+		"file": "game:itemtypes/tool/knife.json",
+		"op": "addmerge",
+		"path": "/miningspeedbytype",
+		"value": {
+            "knife-generic-boney": {
+                "plant": 1.4
+            }
+        }	
+	},
+    {
+		"file": "game:itemtypes/tool/knife.json",
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": {
+            "knife-generic-boney": 130
+        }	
+	},
+    {
+		"file": "game:itemtypes/tool/knife.json",
+		"op": "addmerge",
+		"path": "/attackpowerbytype",
+		"value": {
+            "knife-generic-boney": 1
+        }	
+	}
+]

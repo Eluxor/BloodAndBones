@@ -1,0 +1,68 @@
+[
+	{
+		"file": "game:itemtypes/tool/axe-stone.json",
+		"op": "addeach",
+		"path": "/variantgroups/0/states/-",
+		"value": [
+			"bone"
+		]
+	},
+    {
+		"file": "game:itemtypes/tool/axe-stone.json",
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": {
+            "axe-bone": { "base": "bloodandbones:item/tool/axe-bone-indev" }
+        }	
+	},
+    {
+		"file": "game:itemtypes/tool/axe-stone.json",
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+            "*-bone": {
+			    "material": { "base": "bloodandbones:block/bone" }
+		    },
+        }
+	},
+    {
+        "file": "game:itemtypes/tool/axe-stone.json",
+        "op": "move",
+        "path": "/temp",
+        "frompath": "/texturesByType/*"
+    },
+    {
+        "file": "game:itemtypes/tool/axe-stone.json",
+        "op": "move",
+        "path": "/texturesByType/*",
+        "frompath": "/temp"
+    },
+    {
+		"file": "game:itemtypes/tool/axe-stone.json",
+		"op": "addmerge",
+		"path": "/miningspeedbytype",
+		"value": {
+            "axe-bone": {
+                "wood": 3.5,
+                "plant": 2.7,
+                "leaves": 2.4
+            }
+        }	
+	},
+    {
+		"file": "game:itemtypes/tool/axe-stone.json",
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": {
+            "axe-bone": 80
+        }	
+	},
+    {
+		"file": "game:itemtypes/tool/axe-stone.json",
+		"op": "addmerge",
+		"path": "/attackpowerbytype",
+		"value": {
+            "axe-bone": 1.5
+        }	
+	}
+]

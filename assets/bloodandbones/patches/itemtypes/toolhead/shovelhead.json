@@ -2,7 +2,7 @@
 	{
 		"file": "game:itemtypes/toolhead/shovelhead.json",
 		"op": "addeach",
-		"path": "/variantgroups/0/states/16",
+		"path": "/variantgroups/0/states/-",
 		"value": [
 			"bone"
 		]

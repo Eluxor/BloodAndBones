@@ -10,7 +10,7 @@
 	"textures": {
 		"bone-eluxor": 			"bloodandbones:entity/humanoid/serapharmor/bone/body",
 		"insideskull-small": 	"bloodandbones:entity/humanoid/serapharmor/bone/insideskull-small",
-		"bear-brown": 			"bloodandbones:entity/humanoid/serapharmor/bone/cut-up-bear-brown"
+		"bear-brown": 			"bloodandbones:entity/humanoid/serapharmor/bone/cut-up-brown-bear"
 	},
 	"elements": [
 		{

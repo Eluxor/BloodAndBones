@@ -8,6 +8,17 @@
     "item-clothes-face-skull-sheep" : "Sheep Skull Mask",
 
     "block-boneblock" : "Bone Block",
-    "game:item-hoe-bone": "Bone hoe",
-    "game:item-hoehead-bone": "Bone hoe head"
+    
+    "game:item-hoe-bone": "Bone Hoe",
+    "game:item-hoehead-bone": "Bone Hoe head",
+
+    "game:item-knife-generic-boney": "Bone Knife",
+    "game:item-knifeblade-boney": "Bone Knife blade",
+    
+    "game:item-shovel-bone": "Bone Shovel",
+    "game:item-shovelhead-bone": "Bone Shovel head",
+
+    "game:item-axe-bone": "Bone Axe",
+    "game:item-axehead-bone": "Bone Axe head"
+    
 }

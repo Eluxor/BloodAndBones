@@ -6,7 +6,7 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textures": {
-		"material": "game:block/creature/bone-yellow",
+		"material": "bloodandbones:block/bone",
 		"string": "game:item/tool/material/string",
 		"handle": "game:item/tool/material/handle"
 	},

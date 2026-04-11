@@ -2,7 +2,7 @@
 	{
 		"file": "game:itemtypes/tool/shovel",
 		"op": "addeach",
-		"path": "/variantgroups/0/states/16",
+		"path": "/variantgroups/0/states/-",
 		"value": [
 			"bone"
 		]
@@ -45,7 +45,7 @@
 		"path": "/texturesByType",
 		"value": {
             "*-bone": {
-			    "material": { "base": "bloodandbones:entity/humanoid/serapharmor/bone/body" }
+			    "material": { "base": "bloodandbones:block/bone" }
 		    },
         }	
 	},
