@@ -4,7 +4,8 @@
 		"op": "addeach",
 		"path": "/variantgroups/1/states/-",
 		"value": [
-			"boney"
+			"boney",
+			"boneboney"
 		]
 	},
     {
@@ -13,6 +14,11 @@
 		"path": "/attributes/groundStorageTransformByType",
 		"value": {
 			"@knife-(boney)": {
+				"translation": { "x": 0, "y": 0.04, "z": -0.23 },
+				"rotation": { "x": 23, "y": 87, "z": -90 },
+				"scale": 0.88
+			},
+			"@knife-(boneboney)": {
 				"translation": { "x": 0, "y": 0.04, "z": -0.23 },
 				"rotation": { "x": 23, "y": 87, "z": -90 },
 				"scale": 0.88
@@ -40,6 +46,11 @@
 				"rotation": { "y": 1, "z": -1 },
 				"translation": { "x": -0.25, "y": 0.6 },
 				"scale": 1.25
+			},
+			"@knife-(boneboney)": {
+				"rotation": { "y": 1, "z": -1 },
+				"translation": { "x": -0.25, "y": 0.6 },
+				"scale": 1.25
 			}
         }	
 	},
@@ -60,25 +71,46 @@
 		"op": "addmerge",
 		"path": "/shapeByType",
 		"value": {
-			"*-boney": { "base": "bloodandbones:item/tool/knife-bone-indev" }
+			"*-boney": { "base": "bloodandbones:item/tool/knife-bone-indev" },
+			"*-boneboney": { "base": "bloodandbones:item/tool/knife-bone-indev" }
 		}
 	},
-    {
+	{
 		"file": "game:itemtypes/tool/knife.json",
 		"op": "addmerge",
-		"path": "/shapeByType",
+		"path": "/texturesByType",
 		"value": {
-			"@knife-generic-(boney)": { "base": "bloodandbones:item/tool/knife-bone-indev" },
-            "*-boney": { "base": "bloodandbones:item/tool/knife-bone-indev" },
-            "knife-generic-boney": { "base": "bloodandbones:item/tool/knife-bone-indev" }
-		}
+            "*-boney": {
+                "material": { "base": "game:block/creature/bone-yellow" },
+				"handle": { "base": "game:block/creature/bone-yellow" }
+            },
+			"*-boneboney": {
+                "material": { "base": "game:block/creature/bone-yellow" },
+                "handle": { "base": "game:block/creature/bone-yellow" }
+            }
+        }
 	},
+    {
+        "file": "game:itemtypes/tool/shovel.json",
+        "op": "move",
+        "path": "/temp",
+        "frompath": "/texturesByType/*"
+    },
+    {
+        "file": "game:itemtypes/tool/shovel.json",
+        "op": "move",
+        "path": "/texturesByType/*",
+        "frompath": "/temp"
+    },
     {
 		"file": "game:itemtypes/tool/knife.json",
 		"op": "addmerge",
 		"path": "/miningspeedbytype",
 		"value": {
             "knife-generic-boney": {
+                "plant": 1.4
+            },
+			"knife-generic-boneboney": {
                 "plant": 1.4
             }
         }	
@@ -88,7 +120,8 @@
 		"op": "addmerge",
 		"path": "/durabilitybytype",
 		"value": {
-            "knife-generic-boney": 130
+            "knife-generic-boney": 130,
+            "knife-generic-boneboney": 140
         }	
 	},
     {

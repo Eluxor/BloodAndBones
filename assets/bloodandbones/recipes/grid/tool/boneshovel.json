@@ -1,33 +1,33 @@
 
 [
 	{
-		ingredientPattern: "TTK,__T",
+		ingredientPattern: "_T_,TKT",
 		ingredients: {
 			"T": { type: "item", code: "game:bone"},
 			"K": { type: "item", code: "game:knife-*", isTool: true },
 		},
 		width: 3,
 		height: 2,
-		output: { type: "item", code: "game:axehead-boney", quantity: 1  }
+		output: { type: "item", code: "game:shovelhead-boney", quantity: 1  }
 	},
 	{
 		ingredientPattern: "TS",
 		ingredients: {
-			"T": { type: "item", code: "game:axehead-boney"},
+			"T": { type: "item", code: "game:shovelhead-boney"},
 			"S": { type: "item", code: "game:stick" }
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "game:axe-boney", quantity: 1  }
+		output: { type: "item", code: "game:shovel-boney", quantity: 1  }
 	},
 	{
 		ingredientPattern: "TS",
 		ingredients: {
-			"T": { type: "item", code: "game:axehead-boney"},
+			"T": { type: "item", code: "game:shovelhead-boney"},
 			"S": { type: "item", code: "game:bone" }
 		},
 		width: 1,
 		height: 2,
-		output: { type: "item", code: "game:axe-bone-boney", quantity: 1  }
+		output: { type: "item", code: "game:shovel-bone-boney", quantity: 1  }
 	}
 ]

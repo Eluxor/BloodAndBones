@@ -4,7 +4,8 @@
 		"op": "addeach",
 		"path": "/variantgroups/0/states/-",
 		"value": [
-			"boney"
+			"boney",
+            "bone-boney"
 		]
 	},
     {
@@ -13,6 +14,11 @@
 		"path": "/attributes/groundStorageTransformByType",
 		"value": {
 			"@shovel-(boney)": {
+				"translation": { "x": 0, "y": 0.5, "z": -0.16 },
+				"rotation": { "x": 13, "y": 88, "z": -87 },
+				"scale": 0.88
+			},
+            "@shovel-bone-(boney)": {
 				"translation": { "x": 0, "y": 0.5, "z": -0.16 },
 				"rotation": { "x": 13, "y": 88, "z": -87 },
 				"scale": 0.88
@@ -36,7 +42,8 @@
 		"op": "addmerge",
 		"path": "/shapeByType",
 		"value": {
-            "shovel-boney": { "base": "bloodandbones:item/tool/shovel-bone-indev" }
+            "shovel-boney": { "base": "bloodandbones:item/tool/shovel-bone-indev" },
+            "shovel-bone-boney": { "base": "bloodandbones:item/tool/shovel-bone-indev" }
         }	
 	},
     {
@@ -47,6 +54,10 @@
             "*-boney": {
 			    "material": { "base": "game:block/creature/bone-yellow" }
 		    },
+            "*-bone-boney": {
+			    "material": { "base": "game:block/creature/bone-yellow" },
+                "handle": { "base": "game:block/creature/bone-yellow" }
+		    }
         }	
 	},
     {

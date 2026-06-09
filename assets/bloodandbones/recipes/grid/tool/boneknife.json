@@ -1,0 +1,33 @@
+
+[
+	{
+		ingredientPattern: "TK",
+		ingredients: {
+			"T": { type: "item", code: "game:bone"},
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+		},
+		width: 2,
+		height: 1,
+		output: { type: "item", code: "game:knifeblade-boney", quantity: 1  }
+	},
+	{
+		ingredientPattern: "TS",
+		ingredients: {
+			"T": { type: "item", code: "game:knifeblade-boney"},
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:knife-generic-boney", quantity: 1  }
+	},
+	{
+		ingredientPattern: "TS",
+		ingredients: {
+			"T": { type: "item", code: "game:knifeblade-boney"},
+			"S": { type: "item", code: "game:bone" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:knife-generic-boneboney", quantity: 1  }
+	}
+]

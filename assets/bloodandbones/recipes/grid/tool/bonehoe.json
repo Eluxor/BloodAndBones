@@ -1,0 +1,33 @@
+
+[
+	{
+		ingredientPattern: "BBB,_K_",
+		ingredients: {
+			"B": { type: "item", code: "game:bone"},
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+		},
+		width: 3,
+		height: 2,
+		output: { type: "item", code: "game:hoehead-boney", quantity: 1  }
+	},
+	{
+		ingredientPattern: "TS",
+		ingredients: {
+			"T": { type: "item", code: "game:hoehead-boney"},
+			"S": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:hoe-boney", quantity: 1  }
+	},
+	{
+		ingredientPattern: "TS",
+		ingredients: {
+			"T": { type: "item", code: "game:hoehead-boney"},
+			"S": { type: "item", code: "game:bone" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:hoe-bone-boney", quantity: 1  }
+	}
+]

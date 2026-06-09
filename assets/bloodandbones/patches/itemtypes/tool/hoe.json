@@ -4,7 +4,8 @@
 		"op": "addeach",
 		"path": "/variantgroups/0/states/-",
 		"value": [
-			"boney"
+			"boney",
+            "bone-boney"
 		]
 	},
     {
@@ -13,6 +14,11 @@
 		"path": "/attributes/groundStorageTransformByType",
 		"value": {
 			"@hoe-(boney)": {
+				"translation": { "x": 0, "y": 0.04, "z": -0.23 },
+				"rotation": { "x": 23, "y": 87, "z": -90 },
+				"scale": 0.88
+			},
+            "@hoe-bone-(boney)": {
 				"translation": { "x": 0, "y": 0.04, "z": -0.23 },
 				"rotation": { "x": 23, "y": 87, "z": -90 },
 				"scale": 0.88
@@ -40,6 +46,11 @@
 				"rotation": { "y": 1, "z": -1 },
 				"translation": { "x": -0.25, "y": 0.6 },
 				"scale": 1.25
+			},
+            "@hoe-bone-(boney)": {
+				"rotation": { "y": 1, "z": -1 },
+				"translation": { "x": -0.25, "y": 0.6 },
+				"scale": 1.25
 			}
         }	
 	},
@@ -60,7 +71,8 @@
 		"op": "addmerge",
 		"path": "/shapeByType",
 		"value": {
-            "hoe-boney": { "base": "bloodandbones:item/tool/hoe-bone-indev" }
+            "hoe-boney": { "base": "bloodandbones:item/tool/hoe-bone-indev" },
+            "hoe-bone-boney": { "base": "bloodandbones:item/tool/hoe-bone-indev" }
         }	
 	},
     {
@@ -68,9 +80,13 @@
 		"op": "addmerge",
 		"path": "/texturesByType",
 		"value": {
+            "*-bone-boney": {
+                "material": { "base": "game:block/creature/bone-yellow" },
+                "handle": { "base": "game:block/creature/bone-yellow" }
+            },
             "*-boney": {
-			    "material": { "base": "game:block/creature/bone-yellow" }
-		    },
+                "material": { "base": "game:block/creature/bone-yellow" }
+            }
         }
 	},
     {
@@ -92,6 +108,9 @@
 		"value": {
             "hoe-boney": {
                 "soil": 2.0
+            },
+            "hoe-bone-boney": {
+                "soil": 2.0
             }
         }	
 	},
@@ -100,7 +119,8 @@
 		"op": "addmerge",
 		"path": "/durabilitybytype",
 		"value": {
-            "hoe-boney": 50
+            "hoe-boney": 50,
+            "hoe-bone-boney": 60
         }	
 	},
     {
