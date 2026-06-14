@@ -1,0 +1,17 @@
+{
+	ingredient: { type: "item", code: "stone-*" },
+	pattern: [[
+		"_#_____#__",
+		"###___###_",
+		"#_#___#_#_",
+		"___#_#____",
+		"_#_###_#__",
+		"###_#_###_",
+		"#_#___#_#_",
+		"___#_#____",
+		"___###____",
+		"____#_____"
+	]],
+	name: "Bone axe",
+	output: { type: "item", code: "bloodandbones:axehead-boney", stacksize: 1  }
+}

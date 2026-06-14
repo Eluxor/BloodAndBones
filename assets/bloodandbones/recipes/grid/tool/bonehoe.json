@@ -4,7 +4,7 @@
 		ingredientPattern: "BBB,_K_",
 		ingredients: {
 			"B": { type: "item", code: "game:bone"},
-			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"K": { type: "item", code: "game:stone-*", isTool: true },
 		},
 		width: 3,
 		height: 2,
