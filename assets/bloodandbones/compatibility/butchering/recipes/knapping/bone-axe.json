@@ -1,0 +1,23 @@
+{
+	"ingredient": {	"type": "item",	"code": "butchering:strongbone"	},
+	"pattern": [
+		[
+			"___####___",
+			"___####___",
+			"___####___",
+			"___####___",
+			"__######__",
+			"__######__",
+			"__######__",
+			"__######__",
+			"__######__",
+			"__######__"
+		]
+	],
+	"name": "Bone Axe Head",
+	"output": {
+		"type": "item",
+		"code": "game:axehead-boney",
+		"stacksize": 1
+	}
+}

@@ -1,0 +1,17 @@
+{
+	ingredient: { type: "item", code: "butchering:strongbone" },
+	pattern: [[
+		"_____#____",
+		"_____#____",
+		"____##____",
+		"____##____",
+		"____##____",
+		"___###____",
+		"___###____",
+		"___###____",
+		"___###____",
+		"___###____"
+	]],
+	name: "Bone Knife Head",
+	output: { type: "item", code: "game:knifeblade-boney", stacksize: 1  }
+}

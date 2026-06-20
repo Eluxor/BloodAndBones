@@ -51,12 +51,12 @@
 		"op": "addmerge",
 		"path": "/texturesByType",
 		"value": {
-            "*-boney": {
-			    "material": { "base": "game:block/creature/bone-yellow" }
-		    },
             "*-bone-boney": {
 			    "material": { "base": "game:block/creature/bone-yellow" },
                 "handle": { "base": "game:block/creature/bone-yellow" }
+		    },
+            "*-boney": {
+			    "material": { "base": "game:block/creature/bone-yellow" }
 		    }
         }	
 	},
@@ -82,6 +82,12 @@
                 "sand": 2.5,
                 "gravel": 2.1,
                 "snow": 2.1
+            },
+            "shovel-bone-boney": {
+                "soil": 3,
+                "sand": 3,
+                "gravel": 2.2,
+                "snow": 2.2
             }
         }	
 	},
@@ -90,7 +96,8 @@
 		"op": "addmerge",
 		"path": "/durabilitybytype",
 		"value": {
-            "shovel-boney": 100
+            "shovel-boney": 100,
+            "shovel-bone-boney": 120
         }	
 	},
     {
@@ -98,7 +105,8 @@
 		"op": "addmerge",
 		"path": "/attackpowerbytype",
 		"value": {
-            "shovel-boney": 1.25
+            "shovel-boney": 1.25,
+            "shovel-bone-boney": 1.25
         }	
 	}
 ]

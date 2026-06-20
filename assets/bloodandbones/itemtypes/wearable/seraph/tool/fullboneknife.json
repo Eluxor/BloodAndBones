@@ -89,10 +89,10 @@
 	"miningspeedbytype": {
 		"fullboneknife-bone": {
 			"plant": 1.5
-		},
+		}
 	},
 	"attackpowerbytype": {
-		"fullboneknife-bone": 0,
+		"fullboneknife-bone": 1
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"], "tools": ["*"] },
 	"guiTransformByType": {

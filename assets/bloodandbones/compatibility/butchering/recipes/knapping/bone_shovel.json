@@ -1,5 +1,5 @@
 {
-	ingredient: { type: "item", code: "bone", name: "boney", allowedVariants: ["boney"] },
+	ingredient: { type: "item", code: "butchering:strongbone" },
 	pattern: [[
 		"___####___",
 		"__######__",
@@ -12,6 +12,6 @@
 		"_########_",
 		"_########_"
 	]],
-	name: "Bone shovel",
-	output: { type: "item", code: "shovelhead-{boney}"  }
+	name: "Bone shovel Head",
+	output: { type: "item", code: "game:shovelhead-boney"  }
 }

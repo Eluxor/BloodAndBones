@@ -3,12 +3,12 @@
 	class: "ItemWearable",
 	heldTpIdleAnimation: "holdunderarm",
 	variantgroups: [
-		{ code: "bodypart",  states: ["legs"] },
+		{ code: "bodypart",  states: ["head"] },
 		{ code: "construction",  states: [ "hide" ]},
 		{ code: "material", states: [ "bone"]}
 	],
 	shapeByType: {
-		"armor-legs-hide-bone": { base: "bloodandbones:entity/humanoid/seraph/armor/bone/legs" }
+		"armor-head-hide-bone": { base: "bloodandbones:entity/humanoid/seraph/armor/bone/helm" }
 	},
 	texturesByType: {
 		"*": {
@@ -28,15 +28,18 @@
 		},
 		visibleDamageEffect: true,
 		clothesCategoryByType: {
-			"armor-legs-*": "armorlegs"
+			"armor-head-*": "armorhead"
 		},
 		attachableToEntity: {
 			texturePrefixCode: "armor-{bodypart}-{construction}-{material}",
 			categoryCodeByType: {
-				"armor-legs-*": "armorlegs"
+				"armor-head-*": "armorhead"
 			},
 			disableElementsByType: {
-				"armor-legs-hide-*": ["hideshoeL", "hideshoeR", "shoefluffL", "shoefluffR"]
+				"armor-head-hide-*": ["hidehat", "ponytailhigh", "hair-uncovered", "sidehigh", "sidelow", "bangs"]
+			},
+			keepElementsByType: {
+				"armor-head-hide-*": ["hair-covered"]
 			}
 		},
 		defaultProtLoss: {
@@ -45,7 +48,7 @@
 		},
 		footStepSound: "wearable/leather*",
 		protectionModifiersByType: {
-			"armor-legs-hide-bone": {
+			"armor-head-hide-*": {
 				relativeProtection: 0.65,
 				flatDamageReduction: 0.15,
 				protectionTier: 1
@@ -58,38 +61,29 @@
 		"armor-*": 100
 	},
 	
-	fpHandTransformByType: {
-		"armor-legs-*": {
-			translation: { x: 0.4, y: -1.2, z: -0.5 },
-			rotation: { x: 163, y: -111, z: -180 },
-			origin: { x: 0.5, y: 1.6, z: 0.5 },
-			scale: 2.15
-		}
-	},
 	tpHandTransformByType: {
-		"armor-legs-*": {
-			translation: { x: -0.7, y: -0.6, z: -0.4 },
-			rotation: { x: 95, y: -20, z: -91 },
-			origin: { x: 0.5, y: 0.7, z: 0.5 },
-			scale: 0.74
+		"armor-head-*": {
+			translation: { x: -0.82, y: -2.2, z: -0.5 },
+			rotation: { x: 18, y: 169, z: 30 },
+			origin: { x: 0.5, y: 1.7, z: 0.5 },
+			scale: 0.64
 		}
 	},
 	guiTransformByType: {
-		"armor-legs-*": {
-			translation: { x: 1, y: 0, z: 0 },
+		"armor-head-*": {
+			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -26, y: -46, z: -180 },
-			origin: { x: 0.5, y: 0.37, z: 0.53 },
-			scale: 2.14
+			origin: { x: 0.6, y: 1.72, z: 0.5 },
+			scale: 2
 		}
 	},
 	groundTransformByType: {
-		"armor-legs-*": {
+		"armor-head-*": {
 			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 0, y: 0, z: 90 },
-			origin: { x: 0.34, y: 0.3, z: 0.5 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.34, y: 1.71, z: 0.5 },
 			scale: 3.1
 		}
-		
 	}
 
 }

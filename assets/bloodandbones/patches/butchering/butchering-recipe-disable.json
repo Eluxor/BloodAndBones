@@ -1,0 +1,30 @@
+[
+  {
+    "file": "recipes/grid/tool/boneaxehead.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "file": "recipes/grid/tool/bonehoehead.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "file": "recipes/grid/tool/boneknifehead.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "butchering" }]
+  },
+  {
+    "file": "recipes/grid/tool/boneshovelhead.json",
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "dependsOn": [{ "modid": "butchering" }]
+  }
+]

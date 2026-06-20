@@ -1,6 +1,6 @@
 [
 	{
-		ingredientPattern: "KH_,BRB,B_B",
+		ingredientPattern: "_K_,BRB,BHB",
 		ingredients: {
 			"K": { type: "item", isTool: true, tags: ["tool-trimming"]  },
 			"H": { type: "item", code: "game:hide-pelt-*", quantity: 4, tags: ["size-small"] },
@@ -9,11 +9,11 @@
 		},
 		width: 3,
 		height: 3,
-		name: "Bone Leg Armor",
-		output: { type: "item", code: "bloodandbones:armor-legs-hide-bone"  }
+		name: "Bone Head Armor",
+		output: { type: "item", code: "bloodandbones:armor-head-hide-bone"  }
 	},
 	{
-		ingredientPattern: "KH_,BRB,B_B",
+		ingredientPattern: "_K_,BRB,BHB",
 		ingredients: {
 			"K": { type: "item", isTool: true, tags: ["tool-trimming"]  },
 			"H": { type: "item", code: "game:hide-pelt-*", quantity: 2, tags: ["size-medium"] },
@@ -22,11 +22,11 @@
 		},
 		width: 3,
 		height: 3,
-		name: "Bone Leg Armor",
-		output: { type: "item", code: "bloodandbones:armor-legs-hide-bone"  }
+		name: "Bone Head Armor",
+		output: { type: "item", code: "bloodandbones:armor-head-hide-bone"  }
 	},
 	{
-		ingredientPattern: "KH_,BRB,B_B",
+		ingredientPattern: "_K_,BRB,BHB",
 		ingredients: {
 			"K": { type: "item", isTool: true, tags: ["tool-trimming"]  },
 			"H": { type: "item", code: "game:hide-pelt-*", quantity: 1, tags: ["size-large"], returnedStack: { type: "item", code: "game:hide-pelt-small" }  },
@@ -35,7 +35,7 @@
 		},
 		width: 3,
 		height: 3,
-		name: "Bone Leg Armor",
-		output: { type: "item", code: "bloodandbones:armor-legs-hide-bone"  }
+		name: "Bone Head Armor",
+		output: { type: "item", code: "bloodandbones:armor-head-hide-bone"  }
 	}
 ]

@@ -3,6 +3,7 @@
     "item-armor-body-hide-bone": "Bone Chest Armor",
     "item-armor-body-hide-bone-human": "Bone Chest Armor (Skull)",
     "item-armor-legs-hide-bone": "Bone Leg Armor",
+    "item-armor-head-hide-bone": "Bone Head Armor",
 
     "item-clothes-face-skull-mask" : "Human Skull Mask",
     "item-clothes-face-skull-sheep" : "Sheep Skull Mask",
@@ -10,21 +11,20 @@
     "block-boneblock" : "Bone Block",
     
     "game:item-hoe-boney": "Bone Hoe",
+    "game:item-hoe-bone-boney": "Full Bone Hoe",
     "game:item-hoehead-boney": "Bone Hoe head",
-
-    "item-fullboneknife-bone": "Full Bone HELP",
-    "itemdescv-fullboneknife-bone": "Useful for cutting tall grass, I am WRONG?",
-
-    "bloodandbones:item-fullboneknife-bone": "Full Bone Knife",
-    "bloodandbones:itemdesc-fullboneknife-bone": "Useful for cutting tall grass, I am right?",
 
     "game:item-knife-generic-boney": "Bone Knife",
     "game:item-knifeblade-boney": "Bone Knife blade",
+    "bloodandbones:item-fullboneknife-bone": "Full Bone Knife",
+    "bloodandbones:itemdesc-fullboneknife-bone": "Useful for cutting tall grass, I am right?",
 
     "game:item-shovel-boney": "Bone Shovel",
+    "game:item-shovel-bone-boney": "Full Bone Shovel",
     "game:item-shovelhead-boney": "Bone Shovel head",
 
     "game:item-axe-boney": "Bone Axe",
+    "game:item-axe-bone-boney": "Full Bone Axe",
     "game:item-axehead-boney": "Bone Axe head"
     
 }

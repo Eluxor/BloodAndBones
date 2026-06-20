@@ -1,0 +1,13 @@
+{
+	ingredient: { type: "item", code: "butchering:strongbone" },
+	pattern: [[
+		"____##____",
+		"____##____",
+		"____##____",
+		"____##____",
+		"____##____",
+		"____##____"
+	]],
+	name: "Bone Hoe Head",
+	output: { type: "item", code: "game:hoehead-boney"  }
+}

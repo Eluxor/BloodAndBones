@@ -55,6 +55,15 @@
         }	
 	},
 	{
+		"file": "game:itemtypes/tool/axe-stone.json",
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": {
+			"axe-boney": 100,
+			"axe-bone-boney": 120
+        }	
+	},
+	{
         "file": "game:itemtypes/tool/axe-stone.json",
         "op": "move",
         "path": "/temp",

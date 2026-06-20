@@ -128,7 +128,8 @@
 		"op": "addmerge",
 		"path": "/attackpowerbytype",
 		"value": {
-            "hoe-boney": 1
+            "hoe-boney": 1,
+            "hoe-bone-boney": 1
         }	
 	}
 ]
