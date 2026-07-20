@@ -13,9 +13,9 @@
 		"linen": [64,64]
 	},
 	"textures": {
-		"eluxorbronze": "bloodandbones:entity/humanoid/serapharmor/easterling/eluxorbronze",
-		"sizetemplate": "bloodandbones:entity/humanoid/serapharmor/easterling/sizetemplate",
-		"linen": 		"bloodandbones:entity/humanoid/serapharmor/easterling/underclothes"
+		"eluxorbronze": "C:/Users/Velas/AppData/Roaming/VintagestoryData/Mods/bloodandbones/assets/bloodandbones/textures/entity/humanoid/serapharmor/easterling/eluxorbronze",
+		"sizetemplate": "C:/Users/Velas/AppData/Roaming/VintagestoryData/Mods/bloodandbones/assets/bloodandbones/textures/entity/humanoid/serapharmor/easterling/sizetemplate",
+		"linen": "C:/Users/Velas/AppData/Roaming/VintagestoryData/Mods/bloodandbones/assets/bloodandbones/textures/entity/humanoid/serapharmor/easterling/underclothes"
 	},
 	"elements": [
 		{
