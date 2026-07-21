@@ -940,21 +940,6 @@
 							]
 						}
 					]
-				},
-				{
-					"name": "Cube146",
-					"from": [ -0.0542, 5.0024, -0.01 ],
-					"to": [ 4.1458, 7.0024, 3.09 ],
-					"uv": [ 28.0, 59.0 ],
-					"rotationOrigin": [ -0.0042, 5.0024, 3.9679 ],
-					"faces": {
-						"north": { "texture": "#sizetemplate", "uv": [ 28.0, 62.0, 32.0, 64.0 ] },
-						"east": { "texture": "#sizetemplate", "uv": [ 32.0, 62.0, 35.0, 64.0 ] },
-						"south": { "texture": "#sizetemplate", "uv": [ 35.0, 62.0, 39.0, 64.0 ] },
-						"west": { "texture": "#sizetemplate", "uv": [ 39.0, 62.0, 42.0, 64.0 ] },
-						"up": { "texture": "#sizetemplate", "uv": [ 28.0, 59.0, 32.0, 62.0 ] },
-						"down": { "texture": "#sizetemplate", "uv": [ 32.0, 59.0, 36.0, 62.0 ] }
-					}
 				}
 			]
 		},
@@ -1022,4 +1007,7 @@
 				"down": { "texture": "#linen", "uv": [ 4.5, 48.0, 9.0, 51.5 ] }
 			}
 		}
-	]}
+	],
+	"animations": [
+	]
+}
