@@ -5,13 +5,14 @@
 	variantgroups: [
 		{ code: "bodypart",  states: ["head"] },
 		{ code: "construction",  states: [ "easterling"]},
-		{ code: "material", states: [ "bronze","no-face-bronze","no-horns-bronze","no-horns-no-face-bronze"]}
+		{ code: "material", states: [ "bronze","no-face-bronze","no-horns-bronze","no-horns-no-face-bronze","scout-bronze"]}
 	],
 	shapeByType: {
 		"armor-head-easterling-bronze": { base: "bloodandbones:entity/humanoid/seraph/armor/easterling/helm" },
 		"armor-head-easterling-no-face-bronze": { base: "bloodandbones:entity/humanoid/seraph/armor/easterling/helmnoface" },
 		"armor-head-easterling-no-horns-bronze": { base: "bloodandbones:entity/humanoid/seraph/armor/easterling/helmnohorns" },
-		"armor-head-easterling-no-horns-no-face-bronze": { base: "bloodandbones:entity/humanoid/seraph/armor/easterling/helm2" }
+		"armor-head-easterling-no-horns-no-face-bronze": { base: "bloodandbones:entity/humanoid/seraph/armor/easterling/helm2" },
+		"armor-head-easterling-scout-bronze": { base: "bloodandbones:entity/humanoid/seraph/armor/easterling/helmscout" }
 	},
 	texturesByType: {
 		"*": {

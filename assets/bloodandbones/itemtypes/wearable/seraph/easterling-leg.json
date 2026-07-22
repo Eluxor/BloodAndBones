@@ -5,11 +5,12 @@
 	variantgroups: [
 		{ code: "bodypart",  states: ["legs"] },
 		{ code: "construction",  states: [ "easterling" ]},
-		{ code: "material", states: [ "bronze","rod-bronze"]}
+		{ code: "material", states: [ "bronze","rod-bronze","scout-bronze"]}
 	],
 	shapeByType: {
 		"armor-legs-easterling-bronze": { base: "bloodandbones:entity/humanoid/seraph/armor/easterling/legs" },
-		"armor-legs-easterling-rod-bronze": { base: "bloodandbones:entity/humanoid/seraph/armor/easterling/legs2" }
+		"armor-legs-easterling-rod-bronze": { base: "bloodandbones:entity/humanoid/seraph/armor/easterling/legs2" },
+		"armor-legs-easterling-scout-bronze": { base: "bloodandbones:entity/humanoid/seraph/armor/easterling/legsscout" }
 	},
 	texturesByType: {
 		"*": {
